@@ -33,6 +33,9 @@ public WebDriver driver;
 		String searchBtn = "//button[@name='submit_search']";
 		driver.findElement(By.xpath(searchinput)).click();
 		driver.findElement(By.xpath(searchinput)).sendKeys("Summer dresses");
+		//testing output 1
+		//testing output 2
+		
 		driver.findElement(By.xpath(searchBtn)).click();
 	}
 	
