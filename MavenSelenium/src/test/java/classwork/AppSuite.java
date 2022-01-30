@@ -35,6 +35,7 @@ public WebDriver driver;
 		driver.findElement(By.xpath(searchinput)).sendKeys("Summer dresses");
 		//testing output 1
 		//testing output 2
+		//testingoutut 3
 		
 		driver.findElement(By.xpath(searchBtn)).click();
 	}
